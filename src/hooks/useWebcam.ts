@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react';
+ import { useState, useCallback, useRef } from 'react';
 import { processVideo } from '../services/api';
 import { VideoProcessingResult } from '../types';
 
