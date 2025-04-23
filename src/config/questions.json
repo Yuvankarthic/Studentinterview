@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is a Large Language Model (LLM)?",
+      "choices": [
+        "A. A model that generates images from text.",
+        "B. A model trained to understand and generate human-like text.",
+        "C. A database management system.",
+        "D. A type of search engine."
+      ],
+      "correct_answer": "B",
+      "category": "Fundamentals"
+    },
+    {
+      "id": 2,
+      "text": "Which architecture is commonly used in LLMs?",
+      "choices": [
+        "A. Convolutional Neural Networks (CNNs)",
+        "B. Recurrent Neural Networks (RNNs)",
+        "C. Transformer Architecture",
+        "D. Decision Trees"
+      ],
+      "correct_answer": "C",
+      "category": "Architecture"
+    },
+    {
+      "id": 3,
+      "text": "What is tokenization in the context of LLMs?",
+      "choices": [
+        "A. Dividing text into smaller units like words or subwords.",
+        "B. Encrypting data for security.",
+        "C. Converting text into binary code.",
+        "D. Compressing text for faster processing."
+      ],
+      "correct_answer": "A",
+      "category": "Data Processing"
+    },
+    {
+      "id": 4,
+      "text": "What is the role of the attention mechanism in transformers?",
+      "choices": [
+        "A. To focus on specific parts of the input sequence.",
+        "B. To reduce the size of the dataset.",
+        "C. To classify text into categories.",
+        "D. To generate random text samples."
+      ],
+      "correct_answer": "A",
+      "category": "Architecture"
+    },
+    {
+      "id": 5,
+      "text": "What is pre-training in LLMs?",
+      "choices": [
+        "A. Training the model on a small labeled dataset.",
+        "B. Training the model on a large unlabeled dataset to learn general patterns.",
+        "C. Fine-tuning the model for a specific task.",
+        "D. Testing the model on unseen data."
+      ],
+      "correct_answer": "B",
+      "category": "Training"
+    },
+    {
+      "id": 6,
+      "text": "Which of the following is NOT a popular LLM?",
+      "choices": [
+        "A. GPT (Generative Pre-trained Transformer)",
+        "B. BERT (Bidirectional Encoder Representations from Transformers)",
+        "C. TensorFlow",
+        "D. T5 (Text-to-Text Transfer Transformer)"
+      ],
+      "correct_answer": "C",
+      "category": "Examples"
+    },
+    {
+      "id": 7,
+      "text": "What does the 'temperature' parameter control in text generation?",
+      "choices": [
+        "A. The length of the generated text.",
+        "B. The randomness or creativity of the output.",
+        "C. The speed of text generation.",
+        "D. The accuracy of the generated text."
+      ],
+      "correct_answer": "B",
+      "category": "Functionality"
+    },
+    {
+      "id": 8,
+      "text": "What is fine-tuning in the context of LLMs?",
+      "choices": [
+        "A. Adjusting the model's weights for a specific task using labeled data.",
+        "B. Reducing the size of the model for deployment.",
+        "C. Pre-training the model on a large dataset.",
+        "D. Generating synthetic data for training."
+      ],
+      "correct_answer": "A",
+      "category": "Training"
+    },
+    {
+      "id": 9,
+      "text": "Which of the following is an ethical concern with LLMs?",
+      "choices": [
+        "A. Increased energy consumption during training.",
+        "B. Bias in generated content due to biased training data.",
+        "C. The inability to process images.",
+        "D. Limited vocabulary size."
+      ],
+      "correct_answer": "B",
+      "category": "Ethics"
+    },
+    {
+      "id": 10,
+      "text": "What is zero-shot learning in LLMs?",
+      "choices": [
+        "A. Learning without any training data.",
+        "B. Performing a task without task-specific training examples.",
+        "C. Training the model on a single example.",
+        "D. Using only labeled data for training."
+      ],
+      "correct_answer": "B",
+      "category": "Functionality"
+    },
+    {
+      "id": 11,
+      "text": "What is the primary purpose of the BERT model?",
+      "choices": [
+        "A. To generate long-form text like essays.",
+        "B. To understand and analyze the context of words in sentences.",
+        "C. To translate text between languages.",
+        "D. To classify images."
+      ],
+      "correct_answer": "B",
+      "category": "Examples"
+    },
+    {
+      "id": 12,
+      "text": "What is the main advantage of using transformers over RNNs?",
+      "choices": [
+        "A. Transformers are easier to train on small datasets.",
+        "B. Transformers can process entire sequences at once, enabling parallelization.",
+        "C. Transformers require less computational power.",
+        "D. Transformers are better at image recognition."
+      ],
+      "correct_answer": "B",
+      "category": "Architecture"
+    },
+    {
+      "id": 13,
+      "text": "What is the difference between GPT and BERT?",
+      "choices": [
+        "A. GPT is generative, while BERT is bidirectional.",
+        "B. GPT is used for image generation, while BERT is used for text.",
+        "C. GPT uses RNNs, while BERT uses CNNs.",
+        "D. GPT is open-source, while BERT is proprietary."
+      ],
+      "correct_answer": "A",
+      "category": "Examples"
+    },
+    {
+      "id": 14,
+      "text": "What is the purpose of the 'max tokens' parameter in LLMs?",
+      "choices": [
+        "A. To limit the number of tokens in the input.",
+        "B. To limit the length of the generated output.",
+        "C. To increase the randomness of the output.",
+        "D. To improve the accuracy of the model."
+      ],
+      "correct_answer": "B",
+      "category": "Functionality"
+    },
+    {
+      "id": 15,
+      "text": "Which of the following is a challenge in deploying LLMs?",
+      "choices": [
+        "A. High computational costs.",
+        "B. Limited availability of training data.",
+        "C. Lack of user interest.",
+        "D. Inability to process text."
+      ],
+      "correct_answer": "A",
+      "category": "Deployment"
+    },
+    {
+      "id": 16,
+      "text": "What is transfer learning in LLMs?",
+      "choices": [
+        "A. Training a model from scratch for every task.",
+        "B. Using knowledge from one task to improve performance on another.",
+        "C. Translating text from one language to another.",
+        "D. Sharing model weights across different organizations."
+      ],
+      "correct_answer": "B",
+      "category": "Training"
+    },
+    {
+      "id": 17,
+      "text": "What is the role of embeddings in LLMs?",
+      "choices": [
+        "A. To represent words or tokens as numerical vectors.",
+        "B. To encrypt sensitive data.",
+        "C. To visualize the model's predictions.",
+        "D. To compress the model size."
+      ],
+      "correct_answer": "A",
+      "category": "Data Processing"
+    },
+    {
+      "id": 18,
+      "text": "What is the main limitation of zero-shot learning?",
+      "choices": [
+        "A. It requires large amounts of labeled data.",
+        "B. It may produce less accurate results compared to fine-tuned models.",
+        "C. It cannot process text.",
+        "D. It is computationally expensive."
+      ],
+      "correct_answer": "B",
+      "category": "Functionality"
+    },
+    {
+      "id": 19,
+      "text": "What is few-shot learning in LLMs?",
+      "choices": [
+        "A. Learning with no examples.",
+        "B. Learning with a small number of task-specific examples.",
+        "C. Learning with infinite examples.",
+        "D. Learning with only labeled data."
+      ],
+      "correct_answer": "B",
+      "category": "Functionality"
+    },
+    {
+      "id": 20,
+      "text": "What is the purpose of the 'top-p' parameter in text generation?",
+      "choices": [
+        "A. To limit the number of tokens in the output.",
+        "B. To control the diversity of the output by selecting tokens based on cumulative probability.",
+        "C. To increase the randomness of the output.",
+        "D. To ensure the output is always grammatically correct."
+      ],
+      "correct_answer": "B",
+      "category": "Functionality"
+     }
+  ]
+}
