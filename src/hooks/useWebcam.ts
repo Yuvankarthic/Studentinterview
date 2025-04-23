@@ -80,8 +80,16 @@ const useWebcam = ({ enabled, interval = 2000 }: UseWebcamProps): UseWebcamRetur
           // Start processing frames at regular intervals
           intervalRef.current = window.setInterval(processFrame, interval);
         })
-        .catch(err => {
-          setError(`Error accessing webcam: ${err.message}`);
+        .catch((err: DOMException) => {
+          let errorMessage = 'Error accessing webcam: ';
+          if (err.name === 'NotAllowedError') {
+            errorMessage += 'Permission denied. Please allow webcam access in your browser settings.';
+          } else if (err.name === 'NotFoundError') {
+            errorMessage += 'No webcam found. Please make sure you have a webcam connected.';
+          } else {
+            errorMessage += err.message;
+          }
+          setError(errorMessage);
           setIsMonitoring(false);
         });
     } else {
